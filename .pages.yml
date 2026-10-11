@@ -1,0 +1,42 @@
+media:
+  input: media
+  output: /media
+content:
+  - name: site
+    label: Featured Story, Shop & Social Links
+    type: file
+    path: content/site.json
+    fields:
+      - name: story_title
+        label: Featured Story Title
+        type: string
+      - name: story_date
+        label: Featured Story Date
+        type: string
+      - name: story_description
+        label: Featured Story Description
+        type: text
+      - name: story_image
+        label: Featured Story Cover
+        type: image
+      - name: story_url
+        label: Link to Featured Reel
+        type: string
+      - name: youtube_url
+        label: YouTube Channel Link
+        type: string
+      - name: tiktok_url
+        label: TikTok Link
+        type: string
+      - name: instagram_url
+        label: Instagram Link
+        type: string
+      - name: shop_description
+        label: Shop Card Description
+        type: text
+      - name: shop_live
+        label: Is The Shop Open?
+        type: boolean
+      - name: shop_url
+        label: Shop URL (When Ready)
+        type: string
