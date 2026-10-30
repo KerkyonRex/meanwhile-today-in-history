@@ -31,6 +31,9 @@ content:
       - name: instagram_url
         label: Instagram Link
         type: string
+      - name: shop_image
+        label: Shop Product Photo
+        type: image
       - name: shop_description
         label: Shop Card Description
         type: text
